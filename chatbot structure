@@ -1,0 +1,16 @@
+chatbot/
+│
+├── data/
+│   └── feedback_memory.json  # To store feedback data
+│
+├── models/
+│   └── gpt2_model/  # Folder to save fine-tuned models if needed
+│
+├── scripts/
+│   ├── chatbot.py  # Main chatbot script
+│   ├── learning.py  # Self-learning functions
+│   └── optimization.py  # Functions to optimize solutions
+│
+├── README.md  # Project documentation
+├── requirements.txt  # List of required packages
+└── .gitignore  # Ignore unnecessary files for GitHub
